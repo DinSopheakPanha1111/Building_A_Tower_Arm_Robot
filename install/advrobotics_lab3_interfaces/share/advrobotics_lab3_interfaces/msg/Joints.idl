@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from advrobotics_lab3_interfaces/msg/Joints.msg
+// generated code does not contain a copyright notice
+
+
+module advrobotics_lab3_interfaces {
+  module msg {
+    struct Joints {
+      float q1;
+
+      float q2;
+
+      float q3;
+    };
+  };
+};

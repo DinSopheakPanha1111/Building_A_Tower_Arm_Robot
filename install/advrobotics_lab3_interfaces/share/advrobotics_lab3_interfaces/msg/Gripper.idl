@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from advrobotics_lab3_interfaces/msg/Gripper.msg
+// generated code does not contain a copyright notice
+
+
+module advrobotics_lab3_interfaces {
+  module msg {
+    struct Gripper {
+      float gripper;
+    };
+  };
+};

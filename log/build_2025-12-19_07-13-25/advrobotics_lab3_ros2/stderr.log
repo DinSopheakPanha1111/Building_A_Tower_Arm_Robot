@@ -1,0 +1,37 @@
+[01m[K/home/panha/Building_A_Tower_Arm_Robot/src/advrobotics_lab3_ros2/src/Kinematics.cpp:[m[K In function ‘[01m[Kstd::vector<float> computeInverseKinematics(float, float, float, float, float, float)[m[K’:
+[01m[K/home/panha/Building_A_Tower_Arm_Robot/src/advrobotics_lab3_ros2/src/Kinematics.cpp:43:20:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K|[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+   43 |         if ([01;35m[Kcos_q3 >1[m[K | cos_q3 <-1)
+      |             [01;35m[K~~~~~~~^~[m[K
+[01m[K/home/panha/Building_A_Tower_Arm_Robot/src/advrobotics_lab3_ros2/src/Kinematics.cpp:[m[K In function ‘[01m[Kstd::vector<float> computeInverseKinematics(float, float, float, float, float, float)[m[K’:
+[01m[K/home/panha/Building_A_Tower_Arm_Robot/src/advrobotics_lab3_ros2/src/Kinematics.cpp:43:20:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K|[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+   43 |         if ([01;35m[Kcos_q3 >1[m[K | cos_q3 <-1)
+      |             [01;35m[K~~~~~~~^~[m[K
+[01m[K/home/panha/Building_A_Tower_Arm_Robot/src/advrobotics_lab3_ros2/src/Kinematics.cpp:[m[K In function ‘[01m[Kstd::vector<float> computeInverseKinematics(float, float, float, float, float, float)[m[K’:
+[01m[K/home/panha/Building_A_Tower_Arm_Robot/src/advrobotics_lab3_ros2/src/Kinematics.cpp:43:20:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K|[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+   43 |         if ([01;35m[Kcos_q3 >1[m[K | cos_q3 <-1)
+      |             [01;35m[K~~~~~~~^~[m[K
+In file included from [01m[K/home/panha/Building_A_Tower_Arm_Robot/src/advrobotics_lab3_ros2/src/toolkit-dynamixel/DynamixelHandler.cpp:1[m[K:
+[01m[K/home/panha/Building_A_Tower_Arm_Robot/src/advrobotics_lab3_ros2/include/toolkit-dynamixel/DynamixelHandler.h:[m[K In constructor ‘[01m[KDynamixelHandler::DynamixelHandler()[m[K’:
+[01m[K/home/panha/Building_A_Tower_Arm_Robot/src/advrobotics_lab3_ros2/include/toolkit-dynamixel/DynamixelHandler.h:72:35:[m[K [01;35m[Kwarning: [m[K‘[01m[KDynamixelHandler::m_pPacketHandler[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   72 |         dynamixel::PacketHandler* [01;35m[Km_pPacketHandler[m[K;
+      |                                   [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/panha/Building_A_Tower_Arm_Robot/src/advrobotics_lab3_ros2/include/toolkit-dynamixel/DynamixelHandler.h:71:33:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdynamixel::PortHandler* DynamixelHandler::m_pPortHandler[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   71 |         dynamixel::PortHandler* [01;35m[Km_pPortHandler[m[K;
+      |                                 [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/panha/Building_A_Tower_Arm_Robot/src/advrobotics_lab3_ros2/src/toolkit-dynamixel/DynamixelHandler.cpp:3:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    3 | [01;35m[KDynamixelHandler[m[K::DynamixelHandler():
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/panha/Building_A_Tower_Arm_Robot/src/advrobotics_lab3_ros2/src/toolkit-dynamixel/DynamixelHandler.cpp:1[m[K:
+[01m[K/home/panha/Building_A_Tower_Arm_Robot/src/advrobotics_lab3_ros2/include/toolkit-dynamixel/DynamixelHandler.h:80:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KDynamixelHandler::m_ui8DxlError[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   80 |         uint8_t [01;35m[Km_ui8DxlError[m[K;                          // Dynamixel error
+      |                 [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/panha/Building_A_Tower_Arm_Robot/src/advrobotics_lab3_ros2/include/toolkit-dynamixel/DynamixelHandler.h:79:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint DynamixelHandler::m_i32DxlCommunicationResult[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   79 |         int [01;35m[Km_i32DxlCommunicationResult[m[K;             // Communication result
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/panha/Building_A_Tower_Arm_Robot/src/advrobotics_lab3_ros2/src/toolkit-dynamixel/DynamixelHandler.cpp:3:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    3 | [01;35m[KDynamixelHandler[m[K::DynamixelHandler():
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/panha/Building_A_Tower_Arm_Robot/src/advrobotics_lab3_ros2/src/toolkit-dynamixel/DynamixelHandler.cpp:[m[K In member function ‘[01m[Kbool DynamixelHandler::sendTargetJointPosition(std::vector<short unsigned int>&)[m[K’:
+[01m[K/home/panha/Building_A_Tower_Arm_Robot/src/advrobotics_lab3_ros2/src/toolkit-dynamixel/DynamixelHandler.cpp:208:26:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdxl_present_position[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  208 |                 uint16_t [01;35m[Kdxl_present_position[m[K = 0;
+      |                          [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K

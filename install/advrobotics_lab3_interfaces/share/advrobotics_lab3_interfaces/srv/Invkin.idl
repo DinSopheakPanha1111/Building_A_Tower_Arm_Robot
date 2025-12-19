@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from advrobotics_lab3_interfaces/srv/Invkin.srv
+// generated code does not contain a copyright notice
+
+
+module advrobotics_lab3_interfaces {
+  module srv {
+    struct Invkin_Request {
+      float x;
+
+      float y;
+
+      float z;
+    };
+    struct Invkin_Response {
+      int8 sol;
+
+      float q1;
+
+      float q2;
+
+      float q3;
+    };
+  };
+};
